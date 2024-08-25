@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Shayden - Portfolio</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:site_name" content="Shayden's Portfolio">
+  <meta property="og:description" content="Shayden's Portfolio.">
+  <meta property="og:url" content="https://buildinger.org/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://buildinger.org/img/og-image.png">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://buildinger.org/">
+  <meta name="description" content="Shayden's Portfolio.">
+  <meta name="twitter:description" content="Shayden's Portfolio.">
+  <meta name="twitter:image" content="https://buildinger.org/img/og-image.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/scripts/ru/main.js" charset="UTF-8"></script>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <script>
+    // CSS configs
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "color-light-primary": "var(--color-light-primary)",
+            "color-light-secondary": "var(--background-light-secondary)",
+            "color-light-tertiary": "var(--color-light-tertiary)",
+            "color-light-quaternary": "var(--color-light-quaternary)",
+            "color-dark-primary": "var(--color-dark-primary)",
+            "color-dark-secondary": "var(--color-dark-secondary)",
+            "color-dark-tertiary": "var(--color-dark-tertiary)",
+            "color-dark-quaternary": "var(--color-dark-quaternary)",
+          },
+            backgroundColor: {
+            "background-dark-primary": "var(--background-dark-primary)",
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <header class="flex top-[15px] sticky z-[999]">
+    <div class="block bg-[#c7c7c7] p-[10px] gap-[20px] rounded-full overflow-hidden w-[170px]" id="header">
+      <ul class="text-center text-[14px] gap-[20px] text-dark flex items-center justify-start overflow-x-auto">
+        <li class="m-0 p-0 max-w-[30px] max-h-[30px] min-w-[30px] w-[30px] h-[30p]">
+          <a href="/ru/">
+            <img class="rounded-full" src="/img/brandmark-128.png" alt="Brandmark" draggable="false" class="w-[30px] h-[30px]">
+          </a>
+        </li>
+        <li class="m-0 p-0">
+          <a href="/ru/about">О</a>
+        </li>
+        <li class="m-0 p-0">
+          <a href="/ru/projects">Проекты</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="flex justify-center">
+    <div class="block gap-[20px] max-w-[700px] mt-[50px]">
+      <div class="relative">
+        <div class="bg-color-light-secondary dark:bg-color-dark-secondary max-h-[150px] overflow-hidden rounded-t-[25px] bg-auto bg-no-repeat bg-center">
+          <img class="bg-auto bg-no-repeat bg-center" src="/img/banner.png" draggable="false">
+        </div>
+      </div>
+      <div class="relative flex ml-[25px]">
+        <div class="absolute top-[-75px] z-[100]">
+          <img src="/img/brandmark-128.png" alt="Brandmark" class="rounded-full w-[150px] border-white border-[5px]">
+        </div>
+      </div>
+      <div class="bg-color-light-secondary dark:bg-color-dark-secondary relative rounded-b-[25px] overflow-hidden pb-[20px] ps-[40px] pe-[40px]">
+        <div class="mt-[80px]">
+          <h1 class="text-[25px]">Shayden | Студент</h1>
+        </div>
+        <div class="mt-[10px]">
+          <p>Привет, я делаю вещи.</p>
+        </div>
+        <div class="flex justify-between">
+          <div class="mt-[0px]">
+            <p>Окленд, Новая Зеландия. +640284308766</p>
+          </div>
+          <div class="mt-[0px]">
+            <a class="text-[#0033ff] cursor-pointer" href="/en">English (Английский) сайт</a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-color-light-secondary dark:bg-color-dark-secondary w-[100%] mb-[50px] mt-[13px] rounded-[25px] overflow-hidden pb-[20px] ps-[40px] pe-[40px]">
+        <div class="mt-[20px]">
+          <h1 class="text-[30px] font-bold">Проекты</h1>
+        </div>
+        <div class="ml-[10px] mt-[10px] pb-[20px] flex border-b-[1px]">
+          <div>
+            <img src="/img/brandmark-128.png" draggable="false" class="rounded-full" alt="Buildinger">
+          </div>
+          <div class="ml-[20px]">
+            <div>
+              <p class="text-[20px]">Фронтенд</p>
+              <p>Личный проект</p>
+              <p>01/06/2024 - Настоя́щий</p>
+            </div>
+            <ul class="list-disc ml-[20px] mt-[20px]">
+              <li>VueJS, TailwindCSS и JavaScript для фронтенда.</li>
+              <li>15 узлов Cassandra в 3 дата-центрах для быстрой выборки данных пользователям по всему миру и 100% времени безотказной работы. SSL включен между узлами.</li>
+              <li>API сервер, написанный на C++, для обработки большого объема запросов с высокой скоростью и эффективностью. Обработка вставок, выборок и других операций с базой данных с высокой скоростью.</li>
+              <li>Полностью адаптивный веб-сайт, оптимизированный для всех платформ, с учетом всех размеров браузеров и экранов.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ml-[10px] mt-[10px] pt-[20px] flex">
+          <div>
+            <img src="/img/bdsc.png" draggable="false" class="rounded-full w-[70px]" alt="Brandmark">
+          </div>
+          <div class="ml-[20px]">
+            <div>
+              <p class="text-[20px]">Фронтенд</p>
+              <p>Школьного проектаt</p>
+              <p>01/04/2024 - 5/04/2024</p>
+            </div>
+            <ul class="list-disc ml-[20px] mt-[20px]">
+              <li>HTML, CSS и JavaScript для фронтенда.</li>
+              <li>Полностью адаптивный веб-сайт для всех платформ.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

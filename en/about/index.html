@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Shayden - Portfolio</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:site_name" content="Shayden's Portfolio">
+  <meta property="og:description" content="Shayden's Portfolio.">
+  <meta property="og:url" content="https://buildinger.org/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://buildinger.org/img/og-image.png">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://buildinger.org/">
+  <meta name="description" content="Shayden's Portfolio.">
+  <meta name="twitter:description" content="Shayden's Portfolio.">
+  <meta name="twitter:image" content="https://buildinger.org/img/og-image.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/scripts/en/main.js" charset="UTF-8"></script>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <script>
+    // CSS configs
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "color-light-primary": "var(--color-light-primary)",
+            "color-light-secondary": "var(--background-light-secondary)",
+            "color-light-tertiary": "var(--color-light-tertiary)",
+            "color-light-quaternary": "var(--color-light-quaternary)",
+            "color-dark-primary": "var(--color-dark-primary)",
+            "color-dark-secondary": "var(--color-dark-secondary)",
+            "color-dark-tertiary": "var(--color-dark-tertiary)",
+            "color-dark-quaternary": "var(--color-dark-quaternary)",
+          },
+            backgroundColor: {
+            "background-dark-primary": "var(--background-dark-primary)",
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <header class="flex top-[15px] sticky z-[999]">
+    <div class="block bg-[#c7c7c7] p-[10px] gap-[20px] rounded-full overflow-hidden w-[190px]" id="header">
+      <ul class="text-center text-[14px] gap-[20px] text-dark flex items-center justify-start overflow-x-auto">
+        <li class="m-0 p-0 max-w-[30px] max-h-[30px] min-w-[30px] w-[30px] h-[30p]">
+          <a href="/en/">
+            <img class="rounded-full" src="/img/brandmark-128.png" alt="Brandmark" draggable="false" class="w-[30px] h-[30px]">
+          </a>
+        </li>
+        <li class="m-0 p-0">
+          <a href="/en/about">About</a>
+        </li>
+        <li class="m-0 p-0">
+          <a href="/en/projects">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="flex justify-center">
+    <div class="block gap-[20px] max-w-[700px] mt-[50px]">
+      <div class="relative">
+        <div class="bg-color-light-secondary dark:bg-color-dark-secondary max-h-[150px] overflow-hidden rounded-t-[25px] bg-auto bg-no-repeat bg-center">
+          <img class="bg-auto bg-no-repeat bg-center" src="/img/banner.png" draggable="false">
+        </div>
+      </div>
+      <div class="relative flex ml-[25px]">
+        <div class="absolute top-[-75px] z-[100]">
+          <img src="/img/brandmark-128.png" alt="Brandmark" class="rounded-full w-[150px] border-white border-[5px]">
+        </div>
+      </div>
+      <div class="bg-color-light-secondary dark:bg-color-dark-secondary relative rounded-b-[25px] overflow-hidden pb-[20px] ps-[40px] pe-[40px]">
+        <div class="mt-[80px]">
+          <h1 class="text-[25px]">Shayden | Student</h1>
+        </div>
+        <div class="mt-[10px]">
+          <p>Hi, I make things.</p>
+        </div>
+        <div class="flex justify-between">
+          <div class="mt-[0px]">
+            <p>Auckland, New Zealand. +640284308766</p>
+          </div>
+          <div class="mt-[0px]">
+            <a class="text-[#0033ff] cursor-pointer" href="/ru">Русский (Russian) site</a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-color-light-secondary dark:bg-color-dark-secondary mt-[13px] mb-[50px] rounded-[25px] overflow-hidden pb-[20px] ps-[40px]">
+        <div class="mt-[20px]">
+          <h1 class="text-[30px] font-bold">About</h1>
+        </div>
+        <div>
+          <p>Hi, I'm Shayden, a software engineer specializing in C and C++ programming.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

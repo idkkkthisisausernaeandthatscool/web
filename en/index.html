@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Shayden - Portfolio</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:site_name" content="Shayden's Portfolio">
+  <meta property="og:description" content="Shayden's Portfolio.">
+  <meta property="og:url" content="https://buildinger.org/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://buildinger.org/img/og-image.png">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://buildinger.org/">
+  <meta name="description" content="Shayden's Portfolio.">
+  <meta name="twitter:description" content="Shayden's Portfolio.">
+  <meta name="twitter:image" content="https://buildinger.org/img/og-image.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/scripts/en/main.js" charset="UTF-8"></script>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <script>
+    // CSS configs
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "color-light-primary": "var(--color-light-primary)",
+            "color-light-secondary": "var(--background-light-secondary)",
+            "color-light-tertiary": "var(--color-light-tertiary)",
+            "color-light-quaternary": "var(--color-light-quaternary)",
+            "color-dark-primary": "var(--color-dark-primary)",
+            "color-dark-secondary": "var(--color-dark-secondary)",
+            "color-dark-tertiary": "var(--color-dark-tertiary)",
+            "color-dark-quaternary": "var(--color-dark-quaternary)",
+          },
+            backgroundColor: {
+            "background-dark-primary": "var(--background-dark-primary)",
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <header class="flex top-[15px] sticky z-[999]">
+    <div class="block bg-[#dbdbdb] dark:bg-[#1a1a1a] p-[10px] gap-[20px] rounded-full overflow-hidden w-[190px]" id="header">
+      <ul class="text-center text-[14px] gap-[20px] text-dark flex items-center justify-start overflow-x-auto">
+        <li class="m-0 p-0 max-w-[30px] max-h-[30px] min-w-[30px] w-[30px] h-[30p]">
+          <a href="/en/">
+            <img class="rounded-full" src="/img/brandmark-128.png" alt="Brandmark" draggable="false" class="w-[30px] h-[30px]">
+          </a>
+        </li>
+        <li class="m-0 p-0">
+          <a href="/en/about">About</a>
+        </li>
+        <li class="m-0 p-0">
+          <a href="/en/projects">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="flex justify-center">
+    <div class="block gap-[20px] max-w-[700px] mt-[50px]">
+      <div class="relative">
+        <div class="bg-color-light-secondary dark:bg-color-dark-secondary max-h-[150px] overflow-hidden rounded-t-[25px] bg-auto bg-no-repeat bg-center">
+          <img class="bg-auto bg-no-repeat bg-center" src="/img/banner.png" draggable="false">
+        </div>
+      </div>
+      <div class="relative flex ml-[25px]">
+        <div class="absolute top-[-75px] z-[100]">
+          <img src="/img/brandmark-128.png" alt="Brandmark" class="rounded-full w-[150px] border-white border-[5px]">
+        </div>
+      </div>
+      <div class="bg-color-light-secondary dark:bg-color-dark-secondary relative rounded-b-[25px] overflow-hidden pb-[20px] ps-[40px] pe-[40px]">
+        <div class="mt-[80px]">
+          <h1 class="text-[25px]">Shayden | Student</h1>
+        </div>
+        <div class="mt-[10px]">
+          <p>Hi, I make things.</p>
+        </div>
+        <div class="flex justify-between">
+          <div class="mt-[0px]">
+            <p>Auckland, New Zealand. +640284308766</p>
+          </div>
+          <div class="mt-[0px]">
+            <a class="text-[#0033ff] cursor-pointer" href="/ru">Русский (Russian) site</a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-color-light-secondary dark:bg-color-dark-secondary mt-[13px] rounded-[25px] overflow-hidden pb-[20px] ps-[40px] pe-[40px]">
+        <div class="mt-[20px]">
+          <h1 class="text-[30px] font-bold">Skills</h1>
+        </div>
+        <div class="ml-[10px]">
+          <ul class="mt-[10px] ml-[20px]">
+            <li class="list-disc">HTML</li>
+            <li class="list-disc">CSS</li>
+            <li class="list-disc">JavaScript</li>
+            <li class="list-disc">VueJS</li>
+            <li class="list-disc">PHP</li>
+            <li class="list-disc">C++</li>
+            <li class="list-disc">C<li>
+            <li class="list-disc">MySQL<li>
+            <li class="list-disc">Cassandra<li>
+            <li class="list-disc">SQL<li>
+            <li class="list-disc">CQL<li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-color-light-secondary dark:bg-color-dark-secondary w-[100%] mt-[13px] rounded-[25px] overflow-hidden pb-[20px] ps-[40px] pe-[40px]">
+        <div class="mt-[20px]">
+          <h1 class="text-[30px] font-bold">Experience</h1>
+        </div>
+        <div class="ml-[10px] mt-[10px] pb-[20px] flex border-b-[1px]">
+          <div>
+            <img src="/img/brandmark-128.png" draggable="false" class="rounded-full" alt="Buildinger">
+          </div>
+          <div class="ml-[20px]">
+            <div>
+              <p class="text-[20px]">Frontend</p>
+              <p>Business project</p>
+              <p>01/06/2024 - Present</p>
+            </div>
+            <ul class="list-disc ml-[20px] mt-[20px]">
+              <li>VueJS, TailwindCSS and JavaScript for frontend.</li>
+              <li>15 Cassandra nodes along 3 datacenters for fast fetching of data for users around the world and 100% uptime. SSL enabled between nodes.</li>
+              <li>API server written in C++ to handle a large volume of requests with speed and efficiency. Handling database inserts, selects etc. with efficient speed.</li>
+              <li>Fully responsive website optimized for all platforms, accommodating all browser sizes and screen dimensions.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ml-[10px] mt-[10px] pt-[20px] flex">
+          <div>
+            <img src="/img/bdsc.png" draggable="false" class="rounded-full w-[70px]" alt="Brandmark">
+          </div>
+          <div class="ml-[20px]">
+            <div>
+              <p class="text-[20px]">Frontend</p>
+              <p>School project</p>
+              <p>01/04/2024 - 5/04/2024</p>
+            </div>
+            <ul class="list-disc ml-[20px] mt-[20px]">
+              <li>HTML, CSS and JavaScript for frontend.</li>
+              <li>Fully responsive website for all platforms.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bg-color-light-secondary dark:bg-color-dark-secondary w-[100%] mt-[13px] rounded-[25px] overflow-hidden pb-[20px] ps-[40px] pe-[40px]">
+        <div class="mt-[20px]">
+          <h1 class="text-[30px] font-bold">Education</h1>
+        </div>
+        <div class="ml-[10px] mt-[10px] pb-[20px] flex border-b-[1px]">
+          <div>
+            <img src="/img/bdsc.png" draggable="false" class="rounded-full w-[70px]" alt="BDSC logo">
+          </div>
+          <div class="ml-[20px]">
+            <div>
+              <p class="text-[20px]">BDSC</p>
+              <p>Student</p>
+              <p>01/01/2024 - Present</p>
+            </div>
+            <ul class="list-disc ml-[20px] mt-[20px]">
+              <li>DIT, using HTML, CSS to create websites.</li>
+              <li>Media studies, the study of how films use media technologies.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ml-[10px] mt-[10px] pt-[20px] flex">
+          <div>
+            <img src="/img/howickint.png" draggable="false" class="rounded-full w-[70px]" alt="Howick Intermediate School logo">
+          </div>
+          <div class="ml-[20px]">
+            <div>
+              <p class="text-[20px]">Howick Intermediate School</p>
+              <p>Student</p>
+              <p>01/01/2022 - 01/12/2023</p>
+            </div>
+            <ul class="list-disc ml-[20px] mt-[20px]">
+              <li>Basic core subjects</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bg-color-light-secondary dark:bg-color-dark-secondary mt-[13px] mb-[50px] rounded-[25px] overflow-hidden pb-[20px] ps-[40px]">
+        <div class="mt-[20px]">
+          <h1 class="text-[30px] font-bold">Languages</h1>
+        </div>
+        <div class="ml-[10px]">
+          <ul class="mt-[10px] ml-[20px]">
+            <li class="list-disc">Русский (Russian)</li>
+            <li class="list-disc">English</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

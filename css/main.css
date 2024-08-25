@@ -1,0 +1,53 @@
+:root {
+  --max-width: 1136px;
+  --max-padding-inline: 50px;
+  --text-font: Helvetica, system-ui;
+  --color-light-primary: rgba(255, 255, 255, 1);
+  --color-light-secondary: rgba(200, 200, 200, 1);
+  --color-light-tertiary: rgba(146, 146, 146, 0.8);
+  --color-light-quaternary: rgba(139, 139, 139, 0.6);
+  --color-dark-primary: rgba(0, 0, 0, 1);
+  --color-dark-secondary: rgba(54, 54, 54, 1);
+  --color-dark-tertiary: rgba(104, 104, 104, 0.8);
+  --color-dark-quaternary: rgba(139, 139, 139, 0.6);
+  --background-light-primary: rgb(255, 255, 255);
+  --background-light-secondary: rgb(243, 243, 243);
+  --background-dark-primary: rgb(8, 8, 8);
+  --background-dark-secondary: rgb(38, 38, 38);
+}
+
+body {
+  font-family: var(--text-font);
+  padding-inline-start: var(--max-padding-inline);
+  padding-inline-end: var(--max-padding-inline);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--background-dark-secondary);
+    color: var(--color-light-primary);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: var(--color-dark-primary);
+  }
+}
+
+#header {
+  margin-left: calc(50% - 95px);
+  margin-right: calc(50% - 95px);
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(200px);
+  -webkit-backdrop-filter: blur(200px);
+}
+
+#header {
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
